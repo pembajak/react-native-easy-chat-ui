@@ -93,6 +93,7 @@ export default class InputBar extends PureComponent {
       textChange = () => {}, onMethodChange = () => {}, onContentSizeChange = () => {},
       showVoice,
       inputStyle,
+      inputOutStyle,
       inputOutContainerStyle,
       inputContainerStyle,
       inputHeightFix,
@@ -148,14 +149,14 @@ export default class InputBar extends PureComponent {
               </TouchableOpacity>
             </View> : null
           }
-          <View style={{
+          <View style={[{
             marginHorizontal: 8,
             borderRadius: 18,
             borderColor: '#ccc',
             flex: 1,
             borderWidth: StyleSheet.hairlineWidth,
             paddingVertical: 0.8
-          }}
+          },inputOutStyle]}
           >
             {showVoice
               ? <View

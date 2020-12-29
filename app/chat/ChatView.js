@@ -813,6 +813,7 @@ class ChatWindow extends PureComponent {
                 useEmoji={this.props.useEmoji}
                 usePlus={this.props.usePlus}
                 inputStyle={this.props.inputStyle}
+                inputOutStyle={this.props.inputOutStyle}
                 inputOutContainerStyle={this.props.inputOutContainerStyle}
                 inputContainerStyle={this.props.inputContainerStyle}
                 inputHeightFix={this.props.inputHeightFix}
