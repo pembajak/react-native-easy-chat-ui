@@ -11,7 +11,8 @@
     "access": "public"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "release-it"
   },
   "repository": {
     "type": "git",
@@ -48,7 +49,8 @@
     "jest": "23.6.0",
     "react-test-renderer": "16.2.0",
     "react-native-builder-bob": "^0.17.1",
-    "release-it": "^14.2.2"
+    "release-it": "^14.2.2",
+    "@release-it/conventional-changelog": "^2.0.0"
   },
   "release-it": {
     "git": {
